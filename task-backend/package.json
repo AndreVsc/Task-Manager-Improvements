@@ -1,0 +1,15 @@
+{
+  "name": "task-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/sever.ts",
+    "build": "sucrase ./src -d ./dist --transforms  typescript,imports"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0",
+    "typescript": "^5.2.2"
+  }
+}
